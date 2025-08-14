@@ -7,6 +7,7 @@ from analyzer.utils import display_results
 st.set_page_config(page_title="Seniority Toolkit", layout="wide")
 st.title("🧰 CFs Seniority List - By Jagdev Singh Dosanjh (8146553307)")
 
+
 tab1, tab2 = st.tabs(["📄 PDF Splitter", "📊 Seniority Analyzer"])
 
 with tab1:
@@ -39,3 +40,13 @@ with tab2:
             objection_text = extract_text_from_pdf(objection_file)
             results = compare_entries(combined_text, objection_text)
             display_results(results)
+
+st.write(
+    """
+    <div style='text-align: center; padding: 20px; font-size: 14px;'>
+        <hr>
+        <p>© 2025 https://www.dosanjhpubsasr.org.  Built with Streamlit.</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
