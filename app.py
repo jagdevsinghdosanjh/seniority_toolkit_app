@@ -5,7 +5,7 @@ from analyzer.comparator import compare_entries
 from analyzer.utils import display_results
 
 st.set_page_config(page_title="Seniority Toolkit", layout="wide")
-st.title("🧰 Seniority App for CFs - By Jagdev Singh Dosanjh (8146553307)")
+st.title("🧰 CFs Seniority List - By Jagdev Singh Dosanjh (8146553307)")
 
 tab1, tab2 = st.tabs(["📄 PDF Splitter", "📊 Seniority Analyzer"])
 
