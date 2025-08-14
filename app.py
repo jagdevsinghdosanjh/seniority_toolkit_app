@@ -45,7 +45,9 @@ st.write(
     """
     <div style='text-align: center; padding: 20px; font-size: 14px;'>
         <hr>
-        <p>© 2025 https://www.dosanjhpubsasr.org.  Built with Streamlit.</p>
+        <p>© 2025 https://www.dosanjhpubsasr.org | All rights reserved.</p>
+        <p>Developed by Jagdev Singh Dosanjh.</p>
+        <p>📧 Email: <a href='mailto:jagdevsinghdosanjh@gmail.com</p>
     </div>
     """,
     unsafe_allow_html=True
