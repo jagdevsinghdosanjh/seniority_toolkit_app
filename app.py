@@ -6,6 +6,15 @@ from analyzer.utils import display_results
 
 st.set_page_config(page_title="Seniority Toolkit", layout="wide")
 st.title("🧰 CFs Seniority List - By Jagdev Singh Dosanjh (8146553307)")
+st.markdown(
+    """
+    <div style='text-align: center; padding: 20px; font-size: 18px;'>
+        <strong>Welcome and Congrats to all CFs!</strong>
+        <p>This tool helps you split large PDF file and analyze seniority entries.</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 tab1, tab2 = st.tabs(["📄 PDF Splitter", "📊 Seniority Analyzer"])
