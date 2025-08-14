@@ -57,7 +57,7 @@ st.write(
         <p>© 2025 Jagdev Singh Dosanjh</p>
         <a href="https://www.dosanjhpubsasr.org">dosanjhpubsasr.org | All rights reserved.</a>
         <p>Developed by Jagdev Singh Dosanjh.</p>
-        <p>📧mailto:jagdevsinghdosanjh@gmail.com</p>
+        st.markdown("[📬 Contact Us](mailto:jagdevsinghdosanjh@gmail.com)")
     </div>
     """,
     unsafe_allow_html=True
