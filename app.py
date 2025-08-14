@@ -57,8 +57,11 @@ st.write(
         <p>© 2025 Jagdev Singh Dosanjh</p>
         <a href="https://www.dosanjhpubsasr.org">dosanjhpubsasr.org | All rights reserved.</a>
         <p>Developed by Jagdev Singh Dosanjh.</p>
+        <a href="mailto:jagdevsinghdosanjh@gmail.com?subject=Hello%20there&body=I%20wanted%20to%20reach%20out%20about..." 
+    style="text-decoration: none; color: green;">
+    📩 Send Feedback
+    </a>
     </div>
     """,
     unsafe_allow_html=True
 )
-st.markdown("[📬 Contact Us](mailto:jagdevsinghdosanjh@gmail.com)")
