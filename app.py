@@ -54,7 +54,7 @@ st.write(
     """
     <div style='text-align: center; padding: 20px; font-size: 14px;'>
         <hr>
-        <p>© 2025 Jagdev Singh Dosanjh</p>
+        <p>© 2025 Jagdev Singh Dosanjh - GHS Chananke Amritsar</p>
         <a href="https://www.dosanjhpubsasr.org">dosanjhpubsasr.org | All rights reserved.</a>
         <p>Developed by Jagdev Singh Dosanjh - August 14th, 2025.</p>
         <a href="mailto:jagdevsinghdosanjh@gmail.com?subject=Hello%20there&body=I%20wanted%20to%20reach%20out%20about..." 
